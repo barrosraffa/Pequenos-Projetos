@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+}
+
+
+/* BOTAO ACENDE E APAGA */
+
+body {
+    font-family: 'Slabo 27px', serif;
+    background: #f0f0f3;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.linha-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.elemento-imagem {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 30px;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 10px 10px 38px 3px rgba(0,0,0,0.19);
+    display: flex;
+    justify-content: center;
+}
+
+
+img {
+    width: 100px;
+}
+
+/* section {
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+#botaoSemClick {
+    color: #fff;
+    background: #615df0;
+    border: none;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 10px 10px 38px 3px rgba(0,0,0,0.19);
+}
+
+#botaoSemClick.botao-com-click{
+    color: #615df0;
+    background: #fff;
+    border: none;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 10px 10px 38px 3px rgba(0,0,0,0.19);
+}
+
+/* TROCA DIV */
+
+.caixa-principal {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.div-sem-selecionar {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f3;
+    box-shadow:  -7px -7px 14px 5px #ffffff, 7px 7px 14px 5px rgba(0, 0, 0, 0.28);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.div-sem-selecionar img {
+    display: none;
+}
+
+.div-selecionada {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f3;
+    box-shadow:  inset -7px -7px 14px 5px #ffffff, inset 7px 7px 14px 5px rgba(0, 0, 0, 0.28);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    outline: none;
+}
+ 
+.div-selecionada img {
+    display: flex;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    color: #7e8a98;
+    font-size: 15px;
+}
+
+
